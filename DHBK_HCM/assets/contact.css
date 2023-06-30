@@ -1,0 +1,152 @@
+.web {
+    margin-top: 20px;
+}
+
+/* 1. Trái */
+.head-text {
+    background-color: #EDEDED;
+    width: 100%;
+    height: 40px;
+}
+
+.text {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.panel {
+    padding: 15px;
+}
+
+.panel-icon {
+    margin-right: 10px;
+}
+
+/* Phải */
+.head-text-2 {
+    background-color: #BB2034;
+}
+
+.text-2 {
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Form */
+.vien {
+    border: 1px solid #d5cfcf;
+}
+
+form {
+    padding: 20px 20px 0 20px;
+}
+
+select {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.all {
+    display: flex;
+    border: 0.5px solid #d1cbcb;
+}
+
+.all input, textarea {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.all span i{
+    padding: 10px 16px;
+    background-color: #EEEEEE;
+}
+
+.all .red {
+    color: red;
+    margin: 6px 10px;
+}
+
+.group small {
+    visibility: hidden;
+}
+
+.group.error small {
+    visibility: visible;
+    color: #e04562;
+}
+
+.group.success input {
+    color: #2ecc71;
+}
+
+.distance {
+    display: block;
+    margin-bottom: 24px;
+}
+
+/* Toi ko phai nguoi may */
+.robot {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    margin: 24px 0 0 100px;
+    border: 1px solid #c7bfbf;
+    background-color: #F9F9F9;
+}
+
+.checkbox {
+    width: 30px;
+    height: 24px;
+}
+
+.captcha {
+    margin-top: 10px;
+}
+
+.captcha img {
+    margin-left: 13px;
+    width: 38px;
+    height: 34px;
+}
+
+.captcha p {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.captcha a {
+    text-decoration: none;
+    color: #000;
+    font-size: 8px;
+    display: block;
+    margin-top: 0;
+}
+
+
+.btnn {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.btnn button {
+    margin: 0 0 20px 10px;
+    width: 75px;
+    height: 32px;
+    border: 1px solid #d4cdcd;
+    border-radius: 4px
+}
+
+.btnn-1 {
+    background-color: #fff;
+}
+
+.btnn-2 {
+    background-color: #84B3DC;
+}

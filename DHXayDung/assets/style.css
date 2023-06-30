@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 1.header */
+header {
+    background-color: #002A5C;
+}
+
+.head-left {
+    display: flex;
+    margin: 10px 0;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+
+.logo-text {
+    margin: 12px 0 0 12px;
+}
+
+.logo-text a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo-text h5, .logo-text h6 {
+    margin-bottom: 0;
+}
+
+.head-right {
+    display: flex;
+    margin-top: 20px;
+}
+
+.icon a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin: 0 10px;
+}
+
+.head-right a:hover {
+    color: #999;
+}
+
+.search i {
+    margin-left: 24px;
+}
+
+.global i {
+    margin-left: 15px;
+}
+
+.app i {
+    margin-left: 40px;
+}
+
+.user i {
+    margin-left: 30px;
+}
+
+/* 2.Nav */
+nav {
+    background-color: #001E42;
+}
+
+.list a {
+    color: #fff;
+    font-size: 20px;
+    margin: -8px 10px;
+}
+
+/* 3.Article */
+
+/* 4.section */
+section {
+    margin-top: 20px;
+}
+
+.info img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 14px;
+}
+
+.info a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: #000;
+}
+
+.info a:hover {
+    color: #999;
+}
+
+.lichcongtac {
+    margin-left: 22px;
+}
+
+.tuyensinh {
+    margin-left: 12px;
+}
+
+.thuvien {
+    margin-left: 8px;
+}
+
+.hotrotructuyen {
+    margin-left: 42px;
+}
+
+.cuusv {
+    margin-left: 24px;
+}
+
+.congthongtinsv {
+    margin-left: 45px;
+}
+
+.tuyendung {
+    margin-left: 18px;
+}

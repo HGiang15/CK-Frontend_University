@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./icon/bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/contact.css">
+    <link rel="stylesheet" href="./icon/fontawesome-free-6.4.0-web/css/all.min.css">
+</head>
+<body>
+    <div class="web">
+        <div class="container">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <form id="form" action="">
+                        <div class="head">
+                            <h3 class="title-head">LIÊN HỆ - GÓP Ý</h3>
+                            <p class="text">
+                                <i class="icon fa-solid fa-arrow-right"></i>
+                                Đây là kênh thông tin tiếp nhận những góp ý, chia sẻ, thắc mắc của tất cả
+                                phụ huynh, sinh viên, giảng viên, cán bộ nhân viên và tất cả những ai quan tâm gửi ý kiến 
+                                đóng góp cho Nhà trường. Các câu hỏi, góp ý gửi đến sẽ hoàn toàn được giữ bí mật
+                                và được Hội đồng Quản trị, Ban giám hiệu, các trưởng bộ phận trả lời sớm nhất. Chân thành 
+                                cảm ơn bạn đã có những ý kiến đóng góp xây dựng và phát triển Trường 
+                            </p>
+                            <p class="text">
+                                <i class="icon fa-solid fa-arrow-right"></i>
+                                Chú ý: Để nhận được câu trả lời của Nhà trường xin vui lòng nhập địa chỉ Email chính xác.
+                            </p>
+                        </div>
+                        <!-- Họ tên -->
+                        <div class="group">
+                            <label for="">Họ tên bạn : </label>
+                            <input type="text" class="form-control" id="fullname">
+                            <small>Error</small>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <!-- Điện thoại -->
+                                <div class="group">
+                                    <label for="">Điện thoại : </label>
+                                    <input type="text" class="form-control" id="phone">
+                                    <small>Error</small>
+                                </div>
+                            </div>
+                            <!-- Email -->
+                            <div class="col-6">
+                                <div class="group">
+                                    <label for="">Email : </label>
+                                    <input type="text" class="form-control" id="email">
+                                    <small>Error</small>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- work -->
+                        <div class="group">
+                            <label for="">Về việc : </label>
+                            <select class="form-control" id="work">
+                                <option value="">Góp ý với Lãnh đạo nhà trường</option>
+                            </select>
+                            <small>Error</small>
+                        </div>
+                        <!-- title -->
+                        <div class="group">
+                            <label for="">Tiêu đề : </label>
+                            <input type="text" class="form-control" id="title">
+                            <small>Error</small>
+                        </div>
+                        <!-- content -->
+                        <div class="group">
+                            <label for="">Nội dung : </label>
+                            <input type="text" class="form-control" id="content">
+                            <small>Error</small>
+                        </div>
+                        <button class="btn btn-primary btnn">Gởi đi</button>
+                    </form>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/main.js"></script>
+</body>
+</html>

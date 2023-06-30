@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 1.Header  */
+header {
+    background-color: #132D65;
+}
+
+.head-left {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.university {
+    margin: 14px 0 0 10px;
+}
+
+.university a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.university h6 {
+    font-size: 9px;
+    margin-bottom: 0;
+}
+
+.university h5 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+/* head-right */
+.menu {
+    margin-top: 15px;
+}
+
+.list a {
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.list a:hover {
+    color: #5f5959;
+}
+
+.search {
+    margin-left: 20px;
+}
+
+.search i {
+    color: #2c4c8b;
+    font-size: 18px;
+    transform: translate(-32px, 1px);
+}
+
+.search input {
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.icon {
+    color: #fff;
+}
+
+.user i, .language img, .return i {
+    margin: 0 8px;
+}
+
+.user i:hover, .return i:hover {
+    color: #d5caca;
+}
+
+.language img {
+    width: 38px;
+    height: 22px;
+}
+
+/* 2. Nav */
+nav .menu-2  {
+    box-shadow: 0px 5px 16px -10    px #999;
+}
+
+.list-2 a {
+    margin: 0 20px;
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.list-2 a:hover {
+    color: #6c6262;
+}
+
+/* 3.Article */
+.bg-in img {
+    width: 100%;
+    height: 360px;
+}
+
+.bg-on img {
+    width: 100%;
+    height: 360px;
+}
+
+/* 4.section */
+.section-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.news h6 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1e49a5;
+}
+
+.views a {
+    text-decoration: none;
+    color: #000;
+}
+
+.views a:hover {
+    color: #5f5959;
+}
+
+/* cuối */
+
+.all-img img {
+    width: 305px;
+    height: 215px;
+}
+
+.all-text li {
+    color: #8F2525;
+}
+
+.all-text a {
+    text-decoration: none;
+    color: #8F2525;
+    font-weight: 700;
+}
+
+.all-text a:hover {
+    color: #c63030;
+}

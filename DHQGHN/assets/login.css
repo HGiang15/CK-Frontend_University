@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, .web {
+    background-color: #a17fc2;
+}
+
+.title {
+    margin-top: 20px;
+    background-color: #AAD0EB;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h5 {
+    color: #007F3E;
+}
+
+.title a {
+    text-decoration: none;
+    color: #535F67;
+    padding: 6px 20px;
+    border: 0.5px solid #000;
+    border-radius: 20px;
+}
+
+.title a:hover {
+    background-color: #96c7ea;
+}
+
+form {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.all {
+    display: flex;
+    border: 0.5px solid #d1cbcb;
+    border-radius: 6px;
+}
+
+.all span i {
+    background-color: #E9ECEF;
+    padding: 12px;
+}
+
+label {
+    color: #8A66AC;
+    margin-bottom: 10px;
+}
+
+.form-group .fullname, .form-group .password {
+    border: none;
+}
+
+.form-group small {
+    visibility: hidden;
+}
+
+.form-group.error small {
+    visibility: visible;
+    color: #e04562;
+}
+
+.form-group.success input {
+    color: #2ecc71;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.check input {
+    margin-right: 6px;
+}
+
+.group a {
+    text-decoration: none;
+    color: #C4602E;
+}
+
+.group a:hover {
+    color: #e1550f;
+}
+
+.btnn {
+    margin-top: 10px;
+    width: 100%;
+}

@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 1. Header đầu */
+.list {
+    margin-left: auto;
+    font-size: 14px;
+}
+
+.item--separate::after {
+    content: "";
+    /* display: block; */
+    position: absolute;
+    border-left: 1px solid #eae2e2;
+    height: 45px;
+    right: 150px;
+    top: 0;
+}
+
+.list-item {
+    margin: 0 10px;
+}
+
+.button-item {
+    margin-top: -10px;
+}
+
+.list li a:hover {
+    color: #FFC107;
+}
+
+/* Vien */
+.borderr {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 0.1px solid #e0dada;
+}
+
+/* 2.Header 2 */
+.left-header {
+    display: flex;
+}
+
+.img-logo {
+    width: 80px;
+    height: 80px;
+}
+
+.text {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text a {
+    text-decoration: none;
+}
+
+.text a h4 {
+    color: #2555AA;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.text a h6 {
+    color: #FFC107;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.group {
+    margin-top: 22px;
+}
+
+.group .icon{
+    background-color: #4D90FE;
+}
+
+.icon-search {
+    width: 50px;
+}
+
+/* 3. Nav menu */
+.menu li {
+    padding: 0 8px;
+}
+
+.menu li a {
+    color: #000;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu li a:hover {
+    color: #FFC107;
+}
+
+/* 4.Article */
+.content {
+    background-color: #DDDDDD;
+}
+
+.bg-img {
+    width: 100%;
+    height: 500px;
+}
+
+/* Phải trên */
+.container-fluid {
+    background-color: #DDDDDD;
+}
+
+.right-top {
+    background-color: #235DC4;
+    padding: 15px;
+}
+
+.menu-right li a {
+    color: #fff;
+}
+
+.menu-right li a:hover {
+    color: #FFC107;
+}
+
+/* Phải dưới */
+.right-bottom {
+    margin-top: 10px;
+    background-color: #DDDDDD;
+}
+.all img {
+    width: 130px;
+    height: 85px;
+}
+
+.all span {
+    font-size: 14px;
+    font-weight: 500;
+}

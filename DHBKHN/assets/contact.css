@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.web {
+    margin-top: 20px;
+}
+
+/* 1. Trái */
+.head-text {
+    background-color: #EDEDED;
+    width: 100%;
+    height: 40px;
+}
+
+.text {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.panel {
+    padding: 15px;
+}
+
+.panel-icon {
+    margin-right: 10px;
+}
+
+/* Phai */
+.head-text-2 {
+    background-color: #BB2034;
+}
+
+.text-2 {
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Form */
+.vien {
+    border: 1px solid #d5cfcf;
+}
+
+form {
+    /* margin-top: 10px; */
+    padding: 20px 20px 0 20px;
+}
+
+select {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.all {
+    display: flex;
+    border: 0.5px solid #d1cbcb;
+}
+
+.all input, textarea {
+    width: 100%;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.all span i{
+    padding: 10px 16px;
+    background-color: #EEEEEE;
+}
+
+.all .red {
+    color: red;
+    margin: 6px 10px;
+}
+
+.group small {
+    display: block;
+    margin-bottom: 12px;
+    visibility: hidden;
+}
+
+.group.error small {
+    visibility: visible;
+    color: #e04562;
+}
+
+.group.success input {
+    color: #2ecc71;
+}
+
+.distance {
+    display: block;
+    margin-bottom: 24px;
+}
+
+.all-2 {
+    display: flex;
+    border: 0.5px solid #d1cbcb;
+}
+
+.red-2 {
+    color: red;
+    padding: 10px;
+}
+
+/* Toi ko phai nguoi may */
+.robot {
+    border: 1px solid #c7bfbf;
+    width: 350px;
+    margin: 24px 0 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F9F9F9;
+}
+
+.checkbox {
+    width: 30px;
+    height: 24px;
+}
+
+.captcha {
+    margin-top: 10px;
+}
+
+.captcha img {
+    width: 38px;
+    height: 34px;
+}
+
+.captcha p {
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.captcha a {
+    text-decoration: none;
+    color: #000;
+    font-size: 8px;
+}
+
+
+.btnn {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.btnn button {
+    margin: 0 0 20px 10px;
+    width: 75px;
+    height: 32px;
+    border: 1px solid #d4cdcd;
+    border-radius: 4px
+}
+
+.btnn-1 {
+    background-color: #fff;
+}
+
+.btnn-2 {
+    background-color: #84B3DC;
+}

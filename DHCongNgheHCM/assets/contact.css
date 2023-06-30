@@ -1,0 +1,51 @@
+.head  {
+    color: #009CC9;
+    margin-bottom: 30px;
+}
+
+.icon {
+    background-color: #FF0000;
+    color: #fff;
+    font-size: 12px;
+    border: 1px solid #000;
+    margin-right: 4px;
+}
+
+.title-head {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text {
+    font-weight: 500;
+}
+
+.group {
+    margin-bottom: 12px;
+}
+
+label {
+    color: #C84300;
+    margin-bottom: 5px;
+}
+
+input {
+   height: 30px;
+}
+
+.group small {
+    visibility: hidden;
+}
+
+.group.error small {
+    visibility: visible;
+    color: #e04562;
+}
+
+.group.success input {
+    color: #2ecc71;
+}
+.btnn {
+    margin-left: 788px;
+}

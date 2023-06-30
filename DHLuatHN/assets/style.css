@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 1.Header */
+.list a {
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.list a:hover {
+    color: #987575;
+}
+
+.list .yellow {
+    color: #EFAA84;
+}
+
+.list img {
+    width: 38px;
+    height: 22px;
+}
+
+.item--separate1::after {
+    content: "";
+    /* display: block; */
+    position: absolute;
+    border-left: 1px solid #000;
+    height: 16px;
+    right: 575px;
+    top: 20px;
+}
+
+.item--separate2::after {
+    content: "";
+    /* display: block; */
+    position: absolute;
+    border-left: 1px solid #000;
+    height: 16px;
+    right: 445px;
+    top: 20px;
+}
+
+.head-left {
+    display: flex;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.logo img {
+    width: 90px;
+    height: 90px;
+}
+
+.head-left-text  {
+    margin-top: 14px;
+}
+
+.head-left-text h5 {
+    color: #003864;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.head-left-text a{
+    text-decoration: none;
+}
+
+/* logo đỏ */
+.register img{
+    width: 290px;
+    height: 80px;
+}
+
+/* logo đỏ positon */
+.register {
+    display: flex;
+}
+
+.circle {
+    background-color: #e40909;
+    border-radius: 100%;
+    padding: 6px 6px 0px 6px;
+    position: absolute;
+}
+
+.circle h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFF00;
+    padding: 26px 6px;
+    border: 1.5px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.square {
+    width: 300px;
+    height: 60px;
+    background-color: #e40909;
+    border-radius: 4px;
+    padding: 6px 6px 0px 6px;
+    margin: 10px 0 0 70px;    
+}
+
+.square h5 {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    color: #FFFF00;
+    border: 1.5px solid #fff;
+    padding: 13px 10px;
+}
+
+.group {
+    display: flex;
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: 1px solid #d4d6d9;
+}
+
+.group input {
+    outline: none;
+    border: none;
+    font-size: 13px;
+    padding: 6px 0 0 10px;
+    width: 140px;
+    height: 20px;
+}
+
+.search {
+    margin-left: auto;
+    background-color: #FA7D37;
+    color: #fff;
+    font-size: 13px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+/* 2. Nav */
+.nen{
+    background-color: #005180;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.menu-2 {
+    margin: 0;
+    padding: 0;
+}
+
+.list-2 a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0 20px;
+}
+
+.list-2 a i {
+    margin-left: 4px;
+}
+
+/* 3.article */
+article {
+    margin-left: 100px;
+}
+.bg img {
+    width: 990px;
+    height: 348px;
+}
+
+/* Phải */
+.aside {
+    display: flex;
+    background-color: #005180;
+    width: 180px;
+    height: 348px;
+}
+
+.aside ul {
+    list-style: none;
+    padding-left: 6px;
+}
+
+.item {
+    display: flex;
+    margin: 14px 0;
+}
+
+.item .img-1 {
+    width: 40px;
+    height: 40px;
+}
+
+.item .img-only {
+    width: 160px;
+    height: 70px;
+}
+
+.aside-in {
+    margin-left: 10px;
+}
+
+.aside-in p {
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.aside-in a {
+    text-decoration: none;
+}
+
+.aside-in p:hover {
+    color: #ac8585;
+}
+
+/* 4.footer */
+footer {
+    margin-top: 30px;
+}
+.info-active a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #e40909;
+}
+
+.info a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #4B4B4B;
+}
+
+.info a:hover{
+    color: #e40909;
+}

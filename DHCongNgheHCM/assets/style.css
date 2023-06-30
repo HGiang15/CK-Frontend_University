@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 1.Header */
+.list a img {
+    margin-top: -2px;
+}
+
+.list a:hover {
+    color: #c74242;
+}
+
+.group {
+    border: 0.5px solid #006CB5;
+    border-radius: 10px;
+}
+
+.group input {
+    outline: none;
+    border: none;
+    width: 150px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.group i {
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #006CB5;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* transform: translate(-0px, 0px); */
+}
+
+.head-left {
+    display: flex;
+    margin-left: 80px;
+}
+
+.logo img {
+    width: 50px;
+    height: 55px;
+}
+
+.text {
+    margin-left: 10px;
+    margin-top: -14px;
+}
+
+.hutech-1 h5 {
+    color: #0063CC;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.hutech-2 h6 {
+    color: #FF2929;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.gold {
+    margin-left: 20px;
+}
+
+.gold img {
+    width: 50px;
+    height: 30px;
+}
+
+.sliver {
+    margin-top: -6px;
+    margin-left: 10px;
+}
+
+.sliver img {
+    width: 60px;
+    height: 40px;
+}
+
+/* Head right */
+.head-right {
+    display: flex;
+    margin-left: 80px;
+}
+
+.rating {
+    display: flex;
+}
+
+/* rating */
+.all {
+    margin-top: -6px;
+}
+
+.qs {
+    background-color: #F2A31E;
+    margin: 4px 10px 0 10px;
+    width: 64px;
+    height: 64px;
+}
+
+.qs h5 {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 28px;
+    color: #fff;
+}
+
+.star {
+    margin: 0 0 -5px 14px;
+}
+
+.star .icon {
+    padding: 3px;
+    background-color: #F2A31E;
+    font-size: 8px;
+    color: #fff;
+}
+
+.text-star h4 {
+    color: #58595B;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.system {
+    margin-left: 3px;
+}
+
+.system h6 {
+    color: #F2A31E;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+/* 2. Nav */
+.list-2 {
+    background-color: #0063CD;
+    width: 100%;
+}
+
+.list-2 a {
+    color: #fff;
+    font-size: 13px;
+    margin: 0 13px;
+}
+
+/* 3.article */
+.bg img {
+    width: 100%;
+}
+
+/* 4.footer */
+footer {
+    margin-top: 10px;
+}
+
+.info {
+    border: 0.5px solid #ded0d0;
+    background-color: #F3F5F4;
+}
+
+.info i {
+    background-color: #FF2929;
+    color: #fff;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.info span {
+    color: #185DCC;
+    font-weight: 600;
+}
+
+.info span:hover {
+    cursor: pointer;
+    color: #3074e2;
+}
